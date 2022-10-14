@@ -1,0 +1,767 @@
+Oct  7 10:11:18 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 10:11:26 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 10:11:26 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 10:11:31 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 10:12:21 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 10:12:21 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 10:17:01 debian CRON[3183]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 10:17:01 debian CRON[3183]: pam_unix(cron:session): session closed for user root
+Oct  7 10:28:20 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 10:30:01 debian CRON[3269]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 10:30:01 debian CRON[3269]: pam_unix(cron:session): session closed for user root
+Oct  7 11:06:14 debian gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Oct  7 11:06:14 debian gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [galeb]
+Oct  7 11:06:17 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 11:07:28 debian systemd-logind[580]: New seat seat0.
+Oct  7 11:07:28 debian systemd-logind[580]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  7 11:07:28 debian systemd-logind[580]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct  7 11:07:29 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct  7 11:07:30 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 11:07:30 debian systemd-logind[580]: New session 1 of user galeb.
+Oct  7 11:07:30 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 11:07:30 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct  7 11:07:39 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 11:07:46 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 11:07:46 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 11:07:57 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 11:10:05 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/chmod u+r droits.txt
+Oct  7 11:10:05 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct  7 11:10:05 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 11:10:40 debian gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm(uid=115) by (uid=0)
+Oct  7 11:10:40 debian systemd-logind[580]: New session c1 of user Debian-gdm.
+Oct  7 11:10:40 debian systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm(uid=115) by (uid=0)
+Oct  7 11:10:45 debian polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 11:10:47 debian realmd[2551]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Oct  7 11:10:47 debian realmd[2551]: holding daemon: startup
+Oct  7 11:10:47 debian realmd[2551]: starting service
+Oct  7 11:10:47 debian realmd[2551]: connected to bus
+Oct  7 11:10:47 debian realmd[2551]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Oct  7 11:10:47 debian realmd[2551]: released daemon: startup
+Oct  7 11:10:47 debian realmd[2551]: claimed name on bus: org.freedesktop.realmd
+Oct  7 11:10:53 debian gdm-password]: gkr-pam: unable to locate daemon control file
+Oct  7 11:10:53 debian gdm-password]: gkr-pam: stashed password to try later in open session
+Oct  7 11:10:53 debian gdm-password]: pam_unix(gdm-password:session): session opened for user user2(uid=1002) by (uid=0)
+Oct  7 11:10:53 debian systemd-logind[580]: New session 4 of user user2.
+Oct  7 11:10:53 debian systemd: pam_unix(systemd-user:session): session opened for user user2(uid=1002) by (uid=0)
+Oct  7 11:10:54 debian gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct  7 11:11:00 debian polkitd(authority=local): Registered Authentication Agent for unix-session:4 (system bus name :1.113 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 11:11:06 debian gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user Debian-gdm
+Oct  7 11:11:06 debian gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): Failed to release session: Appel système interrompu
+Oct  7 11:11:06 debian systemd-logind[580]: Session c1 logged out. Waiting for processes to exit.
+Oct  7 11:11:06 debian systemd-logind[580]: Removed session c1.
+Oct  7 11:11:07 debian polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8) (disconnected from bus)
+Oct  7 11:11:07 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 11:11:13 debian PackageKit: uid 1002 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 11:11:13 debian PackageKit: uid 1002 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 11:11:17 debian systemd: pam_unix(systemd-user:session): session closed for user Debian-gdm
+Oct  7 11:11:48 debian realmd[2551]: quitting realmd service after timeout
+Oct  7 11:11:48 debian realmd[2551]: stopping service
+Oct  7 11:12:14 debian PackageKit: uid 1002 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 11:12:14 debian PackageKit: uid 1002 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 11:14:18 debian sudo:    user2 : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/chmod u+r droit.txt
+Oct  7 11:14:42 debian polkitd(authority=local): Operator of unix-session:4 successfully authenticated as unix-user:galeb to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:4323:43935 [gnome-control-center] (owned by unix-user:user2)
+Oct  7 11:14:44 debian accounts-daemon: request by system-bus-name::1.142 [gnome-control-center pid:4323 uid:1002]: change account type of user 'user2' (1002) to 1
+Oct  7 11:14:44 debian usermod[4335]: add 'user2' to group 'sudo'
+Oct  7 11:14:44 debian usermod[4335]: add 'user2' to group 'user2'
+Oct  7 11:14:44 debian usermod[4335]: add 'user2' to shadow group 'sudo'
+Oct  7 11:14:44 debian usermod[4335]: add 'user2' to shadow group 'user2'
+Oct  7 11:14:51 debian polkitd(authority=local): Unregistered Authentication Agent for unix-session:4 (system bus name :1.113, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8) (disconnected from bus)
+Oct  7 11:14:52 debian gdm-password]: pam_unix(gdm-password:session): session closed for user user2
+Oct  7 11:14:52 debian systemd-logind[580]: Session 4 logged out. Waiting for processes to exit.
+Oct  7 11:14:52 debian systemd-logind[580]: Removed session 4.
+Oct  7 11:14:52 debian gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm(uid=115) by (uid=0)
+Oct  7 11:14:52 debian systemd-logind[580]: New session c2 of user Debian-gdm.
+Oct  7 11:14:52 debian systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm(uid=115) by (uid=0)
+Oct  7 11:14:58 debian polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.161 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 11:15:01 debian realmd[4705]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Oct  7 11:15:01 debian realmd[4705]: holding daemon: startup
+Oct  7 11:15:01 debian realmd[4705]: starting service
+Oct  7 11:15:01 debian realmd[4705]: connected to bus
+Oct  7 11:15:01 debian realmd[4705]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Oct  7 11:15:01 debian realmd[4705]: released daemon: startup
+Oct  7 11:15:01 debian realmd[4705]: claimed name on bus: org.freedesktop.realmd
+Oct  7 11:15:20 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 11:16:01 debian realmd[4705]: quitting realmd service after timeout
+Oct  7 11:16:01 debian realmd[4705]: stopping service
+Oct  7 11:17:01 debian CRON[4779]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 11:17:01 debian CRON[4779]: pam_unix(cron:session): session closed for user root
+Oct  7 11:30:01 debian CRON[4797]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 11:30:01 debian CRON[4797]: pam_unix(cron:session): session closed for user root
+Oct  7 11:30:22 debian gdm-password]: gkr-pam: unable to locate daemon control file
+Oct  7 11:30:22 debian gdm-password]: gkr-pam: stashed password to try later in open session
+Oct  7 11:30:22 debian gdm-password]: pam_unix(gdm-password:session): session opened for user user2(uid=1002) by (uid=0)
+Oct  7 11:30:22 debian systemd-logind[580]: New session 10 of user user2.
+Oct  7 11:30:23 debian systemd: pam_unix(systemd-user:session): session opened for user user2(uid=1002) by (uid=0)
+Oct  7 11:30:23 debian gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct  7 11:30:29 debian polkitd(authority=local): Registered Authentication Agent for unix-session:10 (system bus name :1.196 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 11:30:33 debian gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user Debian-gdm
+Oct  7 11:30:33 debian systemd-logind[580]: Session c2 logged out. Waiting for processes to exit.
+Oct  7 11:30:34 debian systemd-logind[580]: Removed session c2.
+Oct  7 11:30:34 debian polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.161, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8) (disconnected from bus)
+Oct  7 11:30:35 debian PackageKit: uid 1002 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 11:30:36 debian PackageKit: uid 1002 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 11:30:51 debian sudo:    user2 : TTY=pts/1 ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/chmod u+r droit.txt
+Oct  7 11:30:51 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+Oct  7 11:30:51 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 11:30:52 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 11:33:12 debian sudo:    user2 : TTY=pts/1 ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/chmod 411 droit.txt
+Oct  7 11:33:12 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+Oct  7 11:33:12 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 11:38:15 debian polkitd(authority=local): Unregistered Authentication Agent for unix-session:10 (system bus name :1.196, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8) (disconnected from bus)
+Oct  7 11:38:15 debian gdm-password]: pam_unix(gdm-password:session): session closed for user user2
+Oct  7 11:38:16 debian systemd-logind[580]: Session 10 logged out. Waiting for processes to exit.
+Oct  7 11:38:16 debian systemd-logind[580]: Removed session 10.
+Oct  7 11:38:16 debian gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm(uid=115) by (uid=0)
+Oct  7 11:38:16 debian systemd-logind[580]: New session c3 of user Debian-gdm.
+Oct  7 11:38:16 debian systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm(uid=115) by (uid=0)
+Oct  7 11:38:22 debian polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.260 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 11:38:23 debian realmd[6939]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Oct  7 11:38:23 debian realmd[6939]: holding daemon: startup
+Oct  7 11:38:23 debian realmd[6939]: starting service
+Oct  7 11:38:24 debian realmd[6939]: connected to bus
+Oct  7 11:38:24 debian realmd[6939]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Oct  7 11:38:24 debian realmd[6939]: released daemon: startup
+Oct  7 11:38:24 debian realmd[6939]: claimed name on bus: org.freedesktop.realmd
+Oct  7 11:38:31 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 11:38:41 debian gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user Debian-gdm
+Oct  7 11:38:41 debian gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): Failed to release session: Appel système interrompu
+Oct  7 11:38:42 debian systemd-logind[580]: Session c3 logged out. Waiting for processes to exit.
+Oct  7 11:38:42 debian systemd-logind[580]: Removed session c3.
+Oct  7 11:38:42 debian polkitd(authority=local): Unregistered Authentication Agent for unix-session:c3 (system bus name :1.260, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8) (disconnected from bus)
+Oct  7 11:38:45 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 11:38:52 debian systemd: pam_unix(systemd-user:session): session closed for user Debian-gdm
+Oct  7 11:39:24 debian realmd[6939]: quitting realmd service after timeout
+Oct  7 11:39:24 debian realmd[6939]: stopping service
+Oct  7 11:46:58 debian systemd-logind[578]: New seat seat0.
+Oct  7 11:46:58 debian systemd-logind[578]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  7 11:46:58 debian systemd-logind[578]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct  7 11:46:58 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct  7 11:46:59 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 11:46:59 debian systemd-logind[578]: New session 1 of user galeb.
+Oct  7 11:46:59 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 11:46:59 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct  7 11:47:07 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 11:47:15 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 11:47:15 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 11:47:26 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 12:17:01 debian CRON[2981]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 12:17:01 debian CRON[2981]: pam_unix(cron:session): session closed for user root
+Oct  7 12:30:01 debian CRON[3060]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 12:30:01 debian CRON[3060]: pam_unix(cron:session): session closed for user root
+Oct  7 12:42:31 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 12:43:16 debian systemd-logind[578]: New seat seat0.
+Oct  7 12:43:16 debian systemd-logind[578]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  7 12:43:16 debian systemd-logind[578]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct  7 12:43:16 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct  7 12:43:16 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 12:43:16 debian systemd-logind[578]: New session 1 of user galeb.
+Oct  7 12:43:16 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 12:43:17 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct  7 12:43:21 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 12:43:25 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 12:43:25 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 12:43:43 debian dbus-daemon[566]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 12:49:46 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 13:01:03 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 13:03:55 debian systemd-logind[578]: New seat seat0.
+Oct  7 13:03:55 debian systemd-logind[578]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  7 13:03:55 debian systemd-logind[578]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct  7 13:03:56 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct  7 13:03:56 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 13:03:56 debian systemd-logind[578]: New session 1 of user galeb.
+Oct  7 13:03:56 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 13:03:56 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct  7 13:04:01 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 13:04:05 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 13:04:05 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 13:04:23 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 13:17:01 debian CRON[2743]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 13:17:01 debian CRON[2743]: pam_unix(cron:session): session closed for user root
+Oct  7 13:30:01 debian CRON[2816]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 13:30:01 debian CRON[2816]: pam_unix(cron:session): session closed for user root
+Oct  7 13:31:06 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 13:31:48 debian systemd-logind[579]: New seat seat0.
+Oct  7 13:31:48 debian systemd-logind[579]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  7 13:31:48 debian systemd-logind[579]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct  7 13:31:49 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct  7 13:31:49 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 13:31:49 debian systemd-logind[579]: New session 1 of user galeb.
+Oct  7 13:31:49 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 13:31:49 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct  7 13:31:54 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 13:31:57 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 13:31:57 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 13:32:15 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 14:12:08 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 14:17:01 debian CRON[3175]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 14:17:01 debian CRON[3175]: pam_unix(cron:session): session closed for user root
+Oct  7 14:30:01 debian CRON[4420]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 14:30:01 debian CRON[4420]: pam_unix(cron:session): session closed for user root
+Oct  7 14:44:52 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 15:17:01 debian CRON[4965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  7 15:17:01 debian CRON[4965]: pam_unix(cron:session): session closed for user root
+Oct  7 15:18:13 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 15:23:02 debian systemd-logind[579]: New seat seat0.
+Oct  7 15:23:02 debian systemd-logind[579]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct  7 15:23:02 debian systemd-logind[579]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct  7 15:23:03 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct  7 15:23:03 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 15:23:03 debian systemd-logind[579]: New session 1 of user galeb.
+Oct  7 15:23:03 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct  7 15:23:03 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct  7 15:23:08 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct  7 15:23:12 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct  7 15:23:12 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct  7 15:23:31 debian dbus-daemon[568]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  7 15:29:19 debian systemd-logind[579]: System is powering down.
+Oct 10 09:49:54 debian systemd-logind[576]: New seat seat0.
+Oct 10 09:49:54 debian systemd-logind[576]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 10 09:49:54 debian systemd-logind[576]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 10 09:49:56 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 10 09:49:56 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 09:49:56 debian systemd-logind[576]: New session 1 of user galeb.
+Oct 10 09:49:56 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 09:49:57 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 10 09:50:08 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 10 09:50:17 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 10 09:50:17 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 10 09:50:20 debian dbus-daemon[564]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 10 09:51:12 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 10 09:51:12 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 10 09:59:37 debian sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=galeb rhost=  user=galeb
+Oct 10 09:59:45 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job01 ; USER=root ; COMMAND=/usr/bin/chmod 751 myfirstscript.sh
+Oct 10 09:59:45 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 10 09:59:45 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 10 10:11:49 debian gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Oct 10 10:11:49 debian gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [galeb]
+Oct 10 10:11:53 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 10 10:17:01 debian CRON[2996]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 10:17:01 debian CRON[2996]: pam_unix(cron:session): session closed for user root
+Oct 10 10:26:53 debian systemd-logind[578]: New seat seat0.
+Oct 10 10:26:53 debian systemd-logind[578]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 10 10:26:53 debian systemd-logind[578]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 10 10:26:55 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 10 10:26:55 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 10:26:55 debian systemd-logind[578]: New session 1 of user galeb.
+Oct 10 10:26:55 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 10:26:55 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 10 10:27:04 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 10 10:27:14 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 10 10:27:14 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 10 10:27:22 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 10 10:30:01 debian CRON[2234]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 10:30:01 debian CRON[2234]: pam_unix(cron:session): session closed for user root
+Oct 10 10:33:21 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job02 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 10 10:33:21 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 10 10:33:24 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 10 10:33:24 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job02 ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Oct 10 10:33:24 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 10 10:34:19 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 10 11:01:43 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 10 11:08:30 debian systemd-logind[585]: New seat seat0.
+Oct 10 11:08:30 debian systemd-logind[585]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 10 11:08:30 debian systemd-logind[585]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 10 11:08:31 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 10 11:08:31 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 11:08:31 debian systemd-logind[585]: New session 1 of user galeb.
+Oct 10 11:08:31 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 11:08:32 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 10 11:08:40 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 10 11:08:54 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 10 11:08:54 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 10 11:08:59 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 10 11:17:01 debian CRON[2312]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 11:17:01 debian CRON[2312]: pam_unix(cron:session): session closed for user root
+Oct 10 11:30:01 debian CRON[2353]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 11:30:01 debian CRON[2353]: pam_unix(cron:session): session closed for user root
+Oct 10 11:44:14 debian systemd-logind[578]: New seat seat0.
+Oct 10 11:44:14 debian systemd-logind[578]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 10 11:44:14 debian systemd-logind[578]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 10 11:44:15 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 10 11:44:15 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 11:44:15 debian systemd-logind[578]: New session 1 of user galeb.
+Oct 10 11:44:16 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 11:44:16 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 10 11:44:25 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 10 11:44:35 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 10 11:44:35 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 10 11:44:39 debian dbus-daemon[566]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 10 11:56:24 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 10 13:18:22 debian CRON[2265]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 13:18:22 debian CRON[2265]: pam_unix(cron:session): session closed for user root
+Oct 10 13:21:33 debian systemd-logind[574]: New seat seat0.
+Oct 10 13:21:33 debian systemd-logind[574]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 10 13:21:33 debian systemd-logind[574]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 10 13:21:35 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 10 13:21:35 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 13:21:35 debian systemd-logind[574]: New session 1 of user galeb.
+Oct 10 13:21:36 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 10 13:21:37 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 10 13:21:48 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 10 13:21:58 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 10 13:21:58 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 10 13:22:00 debian dbus-daemon[563]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 10 13:30:01 debian CRON[2022]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 13:30:01 debian CRON[2022]: pam_unix(cron:session): session closed for user root
+Oct 10 14:17:01 debian CRON[2055]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 14:17:01 debian CRON[2055]: pam_unix(cron:session): session closed for user root
+Oct 10 16:55:04 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 10 16:55:09 debian CRON[2228]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 16:55:09 debian CRON[2228]: pam_unix(cron:session): session closed for user root
+Oct 10 16:55:09 debian CRON[2230]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 16:55:09 debian CRON[2230]: pam_unix(cron:session): session closed for user root
+Oct 10 16:55:09 debian CRON[2232]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 16:55:09 debian CRON[2232]: pam_unix(cron:session): session closed for user root
+Oct 10 17:15:34 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 10 17:17:01 debian CRON[2689]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 17:17:01 debian CRON[2689]: pam_unix(cron:session): session closed for user root
+Oct 10 17:30:01 debian CRON[2742]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 10 17:30:01 debian CRON[2742]: pam_unix(cron:session): session closed for user root
+Oct 10 17:38:05 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 10:04:16 debian systemd-logind[579]: New seat seat0.
+Oct 11 10:04:16 debian systemd-logind[579]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 10:04:16 debian systemd-logind[579]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 10:04:18 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 10:04:18 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 10:04:18 debian systemd-logind[579]: New session 1 of user galeb.
+Oct 11 10:04:18 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 10:04:19 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 10:04:27 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 10:04:36 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 10:04:36 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 10:04:45 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 10:05:30 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 10:05:30 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 10:17:01 debian CRON[2694]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 10:17:01 debian CRON[2694]: pam_unix(cron:session): session closed for user root
+Oct 11 10:18:18 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 10:40:20 debian CRON[2856]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 10:40:20 debian CRON[2856]: pam_unix(cron:session): session closed for user root
+Oct 11 10:42:29 debian systemd-logind[577]: New seat seat0.
+Oct 11 10:42:29 debian systemd-logind[577]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 10:42:29 debian systemd-logind[577]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 10:42:31 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 10:42:31 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 10:42:31 debian systemd-logind[577]: New session 1 of user galeb.
+Oct 11 10:42:31 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 10:42:32 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 10:42:39 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 10:42:47 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 10:42:47 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 10:42:58 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 11:06:10 debian systemd-logind[579]: New seat seat0.
+Oct 11 11:06:10 debian systemd-logind[579]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 11:06:10 debian systemd-logind[579]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 11:06:11 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 11:06:12 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 11:06:12 debian systemd-logind[579]: New session 1 of user galeb.
+Oct 11 11:06:12 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 11:06:13 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 11:06:21 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 11:06:30 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 11:06:30 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 11:06:39 debian dbus-daemon[566]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 11:17:01 debian CRON[2219]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 11:17:01 debian CRON[2219]: pam_unix(cron:session): session closed for user root
+Oct 11 11:27:59 debian gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Oct 11 11:27:59 debian gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [galeb]
+Oct 11 11:28:02 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 11:29:44 debian systemd-logind[577]: New seat seat0.
+Oct 11 11:29:44 debian systemd-logind[577]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 11:29:44 debian systemd-logind[577]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 11:29:45 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 11:29:46 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 11:29:46 debian systemd-logind[577]: New session 1 of user galeb.
+Oct 11 11:29:46 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 11:29:46 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 11:29:54 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 11:30:01 debian CRON[1620]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 11:30:01 debian CRON[1620]: pam_unix(cron:session): session closed for user root
+Oct 11 11:30:02 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 11:30:02 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 11:30:13 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 11:55:19 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 12:02:22 debian systemd-logind[579]: New seat seat0.
+Oct 11 12:02:22 debian systemd-logind[579]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 12:02:22 debian systemd-logind[579]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 12:02:22 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 12:02:22 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 12:02:22 debian systemd-logind[579]: New session 1 of user galeb.
+Oct 11 12:02:22 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 12:02:23 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 12:02:26 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 12:02:30 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 12:02:30 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 12:02:49 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 12:12:29 debian gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Oct 11 12:12:29 debian gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [galeb]
+Oct 11 12:12:32 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 12:17:01 debian CRON[2288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 12:17:01 debian CRON[2288]: pam_unix(cron:session): session closed for user root
+Oct 11 12:22:13 debian systemd-logind[580]: New seat seat0.
+Oct 11 12:22:13 debian systemd-logind[580]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 12:22:13 debian systemd-logind[580]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 12:22:14 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 12:22:14 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 12:22:14 debian systemd-logind[580]: New session 1 of user galeb.
+Oct 11 12:22:14 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 12:22:14 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 12:22:19 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 12:22:23 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 12:22:23 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 12:22:40 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 12:30:01 debian CRON[2310]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 12:30:01 debian CRON[2310]: pam_unix(cron:session): session closed for user root
+Oct 11 12:46:44 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job05 ; USER=root ; COMMAND=/usr/bin/chmod -x hello_bye.sh
+Oct 11 12:46:44 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 11 12:46:44 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 11 13:02:55 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 13:17:01 debian CRON[2568]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 13:17:01 debian CRON[2568]: pam_unix(cron:session): session closed for user root
+Oct 11 13:30:45 debian systemd-logind[581]: New seat seat0.
+Oct 11 13:30:45 debian systemd-logind[581]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 13:30:45 debian systemd-logind[581]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 13:30:46 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 13:30:46 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 13:30:46 debian systemd-logind[581]: New session 1 of user galeb.
+Oct 11 13:30:46 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 13:30:47 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 13:30:56 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 13:31:03 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 13:31:03 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 13:31:10 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 14:17:01 debian CRON[2076]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 14:17:01 debian CRON[2076]: pam_unix(cron:session): session closed for user root
+Oct 11 14:30:01 debian CRON[2083]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 14:30:01 debian CRON[2083]: pam_unix(cron:session): session closed for user root
+Oct 11 14:36:47 debian systemd-logind[577]: New seat seat0.
+Oct 11 14:36:47 debian systemd-logind[577]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 14:36:47 debian systemd-logind[577]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 14:36:48 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 14:36:48 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 14:36:48 debian systemd-logind[577]: New session 1 of user galeb.
+Oct 11 14:36:48 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 14:36:49 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 14:36:57 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 14:37:05 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 14:37:05 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 14:37:16 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 14:57:43 debian systemd-logind[580]: New seat seat0.
+Oct 11 14:57:43 debian systemd-logind[580]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 14:57:43 debian systemd-logind[580]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 14:57:44 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 14:57:44 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 14:57:45 debian systemd-logind[580]: New session 1 of user galeb.
+Oct 11 14:57:45 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 14:57:45 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 14:57:53 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 14:58:00 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 14:58:00 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 14:58:12 debian dbus-daemon[568]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 15:11:21 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 15:17:01 debian CRON[2355]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 15:17:01 debian CRON[2355]: pam_unix(cron:session): session closed for user root
+Oct 11 15:19:05 debian systemd-logind[576]: New seat seat0.
+Oct 11 15:19:05 debian systemd-logind[576]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 11 15:19:05 debian systemd-logind[576]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 11 15:19:06 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 11 15:19:06 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 15:19:06 debian systemd-logind[576]: New session 1 of user galeb.
+Oct 11 15:19:06 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 11 15:19:07 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 11 15:19:15 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 11 15:19:23 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 11 15:19:23 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 11 15:19:34 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 11 15:30:01 debian CRON[2515]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 15:30:01 debian CRON[2515]: pam_unix(cron:session): session closed for user root
+Oct 11 16:07:03 debian gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Oct 11 16:07:03 debian gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [galeb]
+Oct 11 16:07:06 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 16:30:01 debian CRON[3195]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 16:30:01 debian CRON[3195]: pam_unix(cron:session): session closed for user root
+Oct 11 16:37:29 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 11 17:17:01 debian CRON[4128]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 17:17:01 debian CRON[4128]: pam_unix(cron:session): session closed for user root
+Oct 11 17:30:01 debian CRON[4254]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 17:30:01 debian CRON[4254]: pam_unix(cron:session): session closed for user root
+Oct 11 17:40:22 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 12 13:08:09 debian systemd-logind[580]: New seat seat0.
+Oct 12 13:08:09 debian systemd-logind[580]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 12 13:08:09 debian systemd-logind[580]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 12 13:08:09 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 12 13:08:10 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 12 13:08:10 debian systemd-logind[580]: New session 1 of user galeb.
+Oct 12 13:08:10 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 12 13:08:10 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 12 13:08:16 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 12 13:08:20 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 12 13:08:20 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 12 13:08:37 debian dbus-daemon[567]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 12 13:09:15 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 12 13:09:15 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 12 13:17:01 debian CRON[2666]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:17:01 debian CRON[2666]: pam_unix(cron:session): session closed for user root
+Oct 12 13:30:01 debian CRON[2840]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:30:01 debian CRON[2840]: pam_unix(cron:session): session closed for user root
+Oct 12 13:34:37 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 12 13:48:08 debian sudo:    galeb : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/more -f messages
+Oct 12 13:48:08 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 14:05:27 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 12 14:05:52 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 14:06:40 debian systemd-logind[580]: New seat seat0.
+Oct 12 14:06:40 debian systemd-logind[580]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 12 14:06:40 debian systemd-logind[580]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 12 14:06:41 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 12 14:06:41 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 12 14:06:41 debian systemd-logind[580]: New session 1 of user galeb.
+Oct 12 14:06:42 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 12 14:06:42 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 12 14:06:50 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 12 14:06:58 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 12 14:06:58 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 12 14:07:09 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 12 14:12:23 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 12 14:43:01 debian CRON[2238]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:43:01 debian CRON[2238]: pam_unix(cron:session): session closed for user root
+Oct 12 16:47:45 debian CRON[2961]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:47:45 debian CRON[2961]: pam_unix(cron:session): session closed for user root
+Oct 12 16:47:45 debian CRON[2963]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:47:45 debian CRON[2963]: pam_unix(cron:session): session closed for user root
+Oct 12 17:04:47 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job04 ; USER=root ; COMMAND=./argument.sh cd/var/log/wtmp test
+Oct 12 17:04:47 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:04:47 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:06:49 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job04 ; USER=root ; COMMAND=./argument.sh cd /var/log/wtmp teste
+Oct 12 17:06:49 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:06:49 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:07:09 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job04 ; USER=root ; COMMAND=./argument.sh cd/var/log/wtmp teste
+Oct 12 17:07:09 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:07:09 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:07:20 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job04 ; USER=root ; COMMAND=./argument.sh cd/var/log/ test
+Oct 12 17:07:20 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:07:20 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:07:29 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job04 ; USER=root ; COMMAND=./argument.sh cd/var/log test
+Oct 12 17:07:29 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:07:29 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:08:56 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job04 ; USER=root ; COMMAND=/usr/bin/chmod 750 test.txt
+Oct 12 17:08:56 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:08:56 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:17:01 debian CRON[3259]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:17:01 debian CRON[3259]: pam_unix(cron:session): session closed for user root
+Oct 12 17:30:01 debian CRON[3309]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:30:01 debian CRON[3309]: pam_unix(cron:session): session closed for user root
+Oct 12 17:31:42 debian sudo:    galeb : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/last -f syslog
+Oct 12 17:31:42 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:31:46 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:35:12 debian sudo:    galeb : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+Oct 12 17:35:12 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:39:31 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/grep -i /var/log/messages
+Oct 12 17:39:31 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:39:45 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/grep -i /var/log/syslog
+Oct 12 17:39:45 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:40:02 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/grep -i error /var/log/syslog
+Oct 12 17:40:02 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:40:02 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:40:24 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/grep -i error /var/log/messages
+Oct 12 17:40:24 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:40:24 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:42:21 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/grep -w /var/log/syslog
+Oct 12 17:42:21 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:42:44 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/grep -w root /var/log/syslog
+Oct 12 17:42:44 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:42:44 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:55:06 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 12 17:55:06 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:55:17 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:55:19 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 12 17:55:19 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:55:22 debian passwd[3476]: pam_unix(passwd:chauthtok): password changed for root
+Oct 12 17:55:22 debian passwd[3476]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Oct 12 17:55:22 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:55:54 debian su: (to root) galeb on pts/0
+Oct 12 17:55:54 debian su: pam_unix(su:session): session opened for user root(uid=0) by (uid=1000)
+Oct 12 17:57:42 debian su: (to root) galeb on pts/0
+Oct 12 17:57:42 debian su: pam_unix(su:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:57:47 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:57:47 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:57:47 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:57:47 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 17:57:47 debian su: pam_unix(su:session): session closed for user root
+Oct 12 17:57:47 debian su: pam_unix(su:session): session closed for user root
+Oct 12 18:17:02 debian CRON[3697]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:17:02 debian CRON[3697]: pam_unix(cron:session): session closed for user root
+Oct 12 18:20:38 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 12 18:30:01 debian CRON[3741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:30:01 debian CRON[3741]: pam_unix(cron:session): session closed for user root
+Oct 12 18:47:52 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 13 10:07:12 debian systemd-logind[577]: New seat seat0.
+Oct 13 10:07:12 debian systemd-logind[577]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 13 10:07:12 debian systemd-logind[577]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 13 10:07:13 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 13 10:07:14 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 13 10:07:14 debian systemd-logind[577]: New session 1 of user galeb.
+Oct 13 10:07:14 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 13 10:07:15 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 13 10:07:26 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 13 10:07:36 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 13 10:07:36 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 13 10:07:42 debian dbus-daemon[565]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 13 10:08:35 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 13 10:08:35 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 13 10:17:01 debian CRON[2694]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:17:01 debian CRON[2694]: pam_unix(cron:session): session closed for user root
+Oct 13 10:29:47 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 13 10:30:01 debian CRON[2934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:30:01 debian CRON[2934]: pam_unix(cron:session): session closed for user root
+Oct 13 10:38:04 debian sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=galeb rhost=  user=galeb
+Oct 13 10:38:31 debian sudo:    galeb : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Oct 13 10:38:31 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 10:44:16 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 10:45:18 debian systemd-logind[581]: New seat seat0.
+Oct 13 10:45:18 debian systemd-logind[581]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 13 10:45:18 debian systemd-logind[581]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 13 10:45:19 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 13 10:45:20 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 13 10:45:20 debian systemd-logind[581]: New session 1 of user galeb.
+Oct 13 10:45:20 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 13 10:45:21 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 13 10:45:30 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 13 10:45:39 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 13 10:45:39 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 13 10:45:46 debian dbus-daemon[566]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 13 10:54:33 debian sudo:    galeb : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f auth.log
+Oct 13 10:54:33 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:11:52 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/wc -l /var/log/auth.log date +%d-%m-%Y-%H:%M
+Oct 13 11:11:52 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:11:52 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:12:56 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/wc -l /var/log/auth.log +%d-%m-%Y-%H:%M
+Oct 13 11:12:56 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:12:56 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:13:25 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/wc -l /var/log/auth.log
+Oct 13 11:13:25 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:13:25 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:17:01 debian CRON[2588]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:17:01 debian CRON[2588]: pam_unix(cron:session): session closed for user root
+Oct 13 11:30:01 debian CRON[2601]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 11:30:01 debian CRON[2601]: pam_unix(cron:session): session closed for user root
+Oct 13 11:33:35 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 13 11:34:35 debian systemd-logind[580]: New seat seat0.
+Oct 13 11:34:35 debian systemd-logind[580]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 13 11:34:35 debian systemd-logind[580]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 13 11:34:36 debian gdm-autologin]: gkr-pam: no password is available for user
+Oct 13 11:34:37 debian gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 13 11:34:37 debian systemd-logind[580]: New session 1 of user galeb.
+Oct 13 11:34:37 debian systemd: pam_unix(systemd-user:session): session opened for user galeb(uid=1000) by (uid=0)
+Oct 13 11:34:37 debian gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct 13 11:34:47 debian polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+Oct 13 11:34:57 debian PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 13 11:34:57 debian PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 13 11:35:04 debian dbus-daemon[566]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 13 11:47:42 debian gdm-password]: gkr-pam: unlocked login keyring
+Oct 13 11:51:58 debian sudo:    galeb : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f auth.log
+Oct 13 11:51:58 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:53:48 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 11:53:48 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:53:48 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:53:48 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat 
+Oct 13 11:53:48 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:53:48 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:55:36 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 11:55:36 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:55:36 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:55:36 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat 
+Oct 13 11:55:36 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:55:36 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:55:57 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/
+Oct 13 11:55:57 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:55:57 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:55:57 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat 
+Oct 13 11:55:57 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:55:57 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:56:09 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 11:56:09 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:56:09 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:56:09 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat 
+Oct 13 11:56:09 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:56:09 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:57:39 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 11:57:39 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:57:39 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:58:04 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 11:58:04 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:58:04 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 11:59:16 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 11:59:16 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 11:59:16 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:03:29 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:03:29 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:03:29 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:03:44 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:03:44 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:03:44 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:03:44 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:03:44 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:03:44 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:04:21 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:04:21 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:04:21 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:04:21 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:04:21 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:04:21 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:08:55 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:08:55 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:08:55 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:08:55 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:08:55 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:08:55 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:10:57 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:10:57 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:10:57 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:10:57 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:10:57 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:10:57 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:13:02 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:13:02 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:13:02 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:13:02 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:13:02 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:13:02 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:13:32 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:13:32 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:13:32 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:13:32 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:13:32 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:13:32 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:14:43 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:14:43 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:14:43 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:14:43 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:14:43 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:14:43 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:16:17 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:16:17 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:16:17 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:16:17 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:16:17 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:16:17 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:17:01 debian CRON[2590]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:17:01 debian CRON[2590]: pam_unix(cron:session): session closed for user root
+Oct 13 12:30:01 debian CRON[2686]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 12:30:01 debian CRON[2686]: pam_unix(cron:session): session closed for user root
+Oct 13 12:34:32 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:34:32 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:34:32 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:34:32 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:34:32 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:34:32 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:35:28 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:35:28 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:35:28 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:35:28 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:35:28 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:35:28 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:36:35 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:36:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 13 12:36:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Oct 13 12:36:35 debian sudo:    galeb : TTY=pts/0 ; PWD=/home/galeb/Bash/Job08/Backup ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Oct 13 12:36:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
